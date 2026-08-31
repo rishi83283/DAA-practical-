@@ -1,0 +1,16 @@
+CONCLUSION - PRACTICAL 6: MATRIX CHAIN MULTIPLICATION (DYNAMIC PROGRAMMING)
+
+In this practical, we implemented the Matrix Chain Multiplication problem using the Dynamic Programming approach:
+
+1. Dynamic Programming Formulation:
+   - Uses optimal substructure and overlapping subproblems to find the most efficient parenthesization order for multiplying a sequence of matrices.
+   - Constructs a 2D table `dp[i][j]` representing the minimum number of scalar multiplications needed to compute the matrix product A[i]...A[j].
+   - Solves subproblems in order of increasing chain length from length 2 up to n-1.
+
+2. Performance Metrics:
+   - Time Complexity: O(n^3), where `n` is the number of matrices (length of dimensions array minus 1).
+   - Space Complexity: O(n^2) for storing intermediate subproblem costs in the DP table.
+
+note:
+- Dynamic Programming drastically reduces time complexity from exponential O(2^n) brute-force parenthesization to polynomial O(n^3).
+- The order of multiplication significantly affects total computational cost without changing the final product matrix.
