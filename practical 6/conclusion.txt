@@ -1,4 +1,5 @@
 CONCLUSION - PRACTICAL 6: MATRIX CHAIN MULTIPLICATION (DYNAMIC PROGRAMMING)
+Name: Rishi
 
 In this practical, we implemented the Matrix Chain Multiplication problem using the Dynamic Programming approach:
 

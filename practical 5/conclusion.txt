@@ -1,4 +1,5 @@
 CONCLUSION - PRACTICAL 5: 0/1 KNAPSACK PROBLEM
+Name: Rishi
 
 In this practical, we implemented the 0/1 Knapsack Problem using Dynamic Programming approach:
 

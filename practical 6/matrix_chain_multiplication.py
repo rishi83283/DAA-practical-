@@ -1,5 +1,6 @@
 """
 Matrix Chain Multiplication (Dynamic Programming)
+Author: Rishi
 
 Time Complexity: O(n^3)
 
@@ -27,6 +28,7 @@ def matrix_chain_multiplication(p):
 
 
 def main():
+    print("Name: Rishi")
     n = int(input("Enter number of matrices: "))
     p = list(map(int, input("Enter dimensions:\n").split()))
 
@@ -35,3 +37,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

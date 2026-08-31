@@ -1,5 +1,6 @@
 """
 0/1 Knapsack Problem (Dynamic Programming)
+Author: Rishi
 
 Time Complexity: O(n * W)
 
@@ -25,6 +26,7 @@ def knapsack(wt, val, n, W):
 
 
 def main():
+    print("Name: Rishi")
     n = int(input("Enter number of items: "))
 
     wt = list(map(int, input("Enter weights:\n").split()))
@@ -37,3 +39,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
