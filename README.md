@@ -21,3 +21,10 @@ Design and Analysis of Algorithms (DAA) practical implementations in Python.
 ### [Practical 4](./practical%204/) - Factorial
 - **Iterative Factorial**: Time \(O(n)\) | Space \(O(1)\)
 - **Recursive Factorial**: Time \(O(n)\) | Space \(O(n)\)
+
+### [Practical 5](./practical%205/) - 0/1 Knapsack Problem
+- **0/1 Knapsack (Dynamic Programming)**: Time \(O(n \cdot W)\) | Space \(O(n \cdot W)\)
+
+### [Practical 6](./practical%206/) - Matrix Chain Multiplication
+- **Matrix Chain Multiplication (Dynamic Programming)**: Time \(O(n^3)\) | Space \(O(n^2)\)
+
