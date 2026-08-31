@@ -1,6 +1,5 @@
 """
 0/1 Knapsack Problem (Dynamic Programming)
-Author: Rishi
 
 Time Complexity: O(n * W)
 

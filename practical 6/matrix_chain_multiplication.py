@@ -1,6 +1,5 @@
 """
 Matrix Chain Multiplication (Dynamic Programming)
-Author: Rishi
 
 Time Complexity: O(n^3)
 
