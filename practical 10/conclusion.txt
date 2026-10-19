@@ -1,0 +1,16 @@
+CONCLUSION - PRACTICAL 10: KRUSKAL'S ALGORITHM (MINIMUM SPANNING TREE)
+Name: Rishi
+
+In this practical, we implemented Kruskal's Algorithm to determine the Minimum Spanning Tree (MST) of a weighted undirected graph:
+
+1. Algorithm Details:
+   - Greedy Approach: Sorts all edges in non-decreasing order of edge weight.
+   - Iteratively selects the minimum weight edge and adds it to the spanning tree if it does not create a cycle.
+   - Utilizes Disjoint Set Union (DSU) with path compression and union by rank for near O(1) cycle detection and component merging.
+
+2. Performance Metrics:
+   - Time Complexity: O(E log E) or O(E log V), dominated by edge sorting.
+   - Space Complexity: O(V + E) for the edge list and disjoint set data structures.
+
+note:
+- Kruskal's algorithm is optimal and preferred for sparse graphs where E << V^2.

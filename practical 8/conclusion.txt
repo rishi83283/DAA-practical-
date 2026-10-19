@@ -1,0 +1,16 @@
+CONCLUSION - PRACTICAL 8: GRAPH TRAVERSAL (BFS AND DFS)
+Name: Rishi
+
+In this practical, we implemented Breadth First Search (BFS) and Depth First Search (DFS) for graph traversal:
+
+1. Algorithm Details:
+   - Breadth First Search (BFS): Explores the graph layer by layer using a FIFO queue. It systematically visits all vertices at distance k before proceeding to distance k+1.
+   - Depth First Search (DFS): Explores as deep as possible along each branch before backtracking, implemented recursively using the system call stack.
+
+2. Performance Metrics:
+   - Time Complexity: O(V + E) for both BFS and DFS, where V is the number of vertices and E is the number of edges.
+   - Space Complexity: O(V) for keeping track of visited vertices and maintaining the queue/call stack.
+
+note:
+- BFS guarantees the shortest path in unweighted graphs.
+- DFS is well-suited for topological sorting, cycle detection, and connectivity analysis in graphs.

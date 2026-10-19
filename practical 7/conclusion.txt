@@ -1,0 +1,17 @@
+CONCLUSION - PRACTICAL 7: MAKING CHANGE PROBLEM (DYNAMIC PROGRAMMING)
+Name: Rishi
+
+In this practical, we implemented the Making Change Problem using the Dynamic Programming approach:
+
+1. Dynamic Programming Formulation:
+   - Uses optimal substructure to find the minimum number of coins needed to make a given amount.
+   - Constructs a 1D table `dp[i]` representing the minimum coins required to make amount `i`.
+   - Iterates through all sub-amounts from 1 to `amount` and updates using available coin denominations.
+
+2. Performance Metrics:
+   - Time Complexity: O(amount * len(coins)), where `amount` is target amount and `len(coins)` is the number of coin denominations.
+   - Space Complexity: O(amount) for storing intermediate subproblem states.
+
+note:
+- Dynamic Programming avoids recalculating overlapping subproblems, drastically reducing time complexity compared to naive recursive branching.
+- If the target amount cannot be formed using the given denominations, the algorithm correctly returns -1.

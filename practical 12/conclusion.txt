@@ -1,0 +1,16 @@
+CONCLUSION - PRACTICAL 12: TRAVELLING SALESMAN PROBLEM (DYNAMIC PROGRAMMING)
+Name: Rishi
+
+In this practical, we implemented the Travelling Salesman Problem (TSP) using Dynamic Programming with bitmasking:
+
+1. Dynamic Programming Formulation:
+   - Uses bitmasking to represent the set of visited cities, where the i-th bit indicates whether city i has been visited.
+   - State `dp[mask][pos]` memoizes the minimum tour cost starting at `pos` with subset of visited cities `mask`.
+   - Transitions try visiting each unvisited city, combining optimal substructure solutions.
+
+2. Performance Metrics:
+   - Time Complexity: O(n^2 * 2^n), where n is the number of cities.
+   - Space Complexity: O(n * 2^n) for storing states in the memoization table.
+
+note:
+- Dynamic Programming with bitmasking reduces time complexity drastically from brute force O(n!) to O(n^2 * 2^n), enabling exact solutions for small to medium graphs.

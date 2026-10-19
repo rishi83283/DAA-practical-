@@ -1,0 +1,16 @@
+CONCLUSION - PRACTICAL 11: FLOYD-WARSHALL ALGORITHM (ALL-PAIRS SHORTEST PATH)
+Name: Rishi
+
+In this practical, we implemented the Floyd-Warshall Algorithm for finding all-pairs shortest paths in a directed weighted graph:
+
+1. Dynamic Programming Formulation:
+   - Computes shortest distances between every pair of vertices (u, v) using intermediate vertices from a set {0, 1, ..., k}.
+   - Recurrence relation: dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j]).
+   - Solves problems iteratively for k = 0 to V-1.
+
+2. Performance Metrics:
+   - Time Complexity: O(V^3), using three nested loops over the number of vertices.
+   - Space Complexity: O(V^2) for maintaining the distance matrix.
+
+note:
+- Works with both positive and negative edge weights, provided the graph does not contain negative weight cycles.

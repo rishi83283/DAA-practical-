@@ -1,0 +1,15 @@
+CONCLUSION - PRACTICAL 9: PRIM'S ALGORITHM (MINIMUM SPANNING TREE)
+Name: Rishi
+
+In this practical, we implemented Prim's Algorithm to determine the Minimum Spanning Tree (MST) of a weighted connected undirected graph:
+
+1. Algorithm Details:
+   - Greedy Strategy: Starts at an arbitrary root vertex and grows the tree one edge at a time.
+   - At each step, picks the cheapest edge connecting a vertex in the MST to a vertex outside the MST using a min-heap priority queue.
+
+2. Performance Metrics:
+   - Time Complexity: O((V + E) log V), where V is the number of vertices and E is the number of edges.
+   - Space Complexity: O(V + E) for storing adjacency lists and priority queue elements.
+
+note:
+- Prim's algorithm is particularly suitable and faster for dense graphs where the number of edges E is close to V^2.
